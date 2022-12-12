@@ -42,7 +42,7 @@ namespace PhoneApplications.Services.Report.API.Controllers
 
             if (System.IO.File.Exists(filepath))
                 return Ok(await System.IO.File.ReadAllTextAsync(filepath));
-            return NotFound("Rapor dosyası bulunamadı");
+            return NotFound("Rapor dosyası bulunamadı"); 
         }
 
     }
