@@ -18,7 +18,6 @@ namespace PhoneApplications.Services.Contact.Core.Repositories
         Task<T> SingleOrDefaultAsync(Expression<Func<T, bool>> predicate);
 
         Task AddAsync(T entity);
-
         void Remove(T entity);
         T Update(T entity);
     }

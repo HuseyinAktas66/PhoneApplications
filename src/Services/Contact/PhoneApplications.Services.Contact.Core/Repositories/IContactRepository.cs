@@ -9,5 +9,6 @@ namespace PhoneApplications.Services.Contact.Core.Repositories
 {
     public interface IContactRepository:IGenericRepository<Contacts> 
     {
+        Task<IEnumerable<ContactTypes>> GetContactTypes();
     }
 }
