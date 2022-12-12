@@ -11,13 +11,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Report", "Report", "{CFF797
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{76E76F61-B111-4E19-AFF8-058C9CEAB068}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneApplications.Services.Contact.API", "src\Services\Contact\PhoneApplications.Services.Contact.API\PhoneApplications.Services.Contact.API.csproj", "{994138D9-8C26-456E-8765-3BA9B2CD8E04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneApplications.Services.Contact.API", "src\Services\Contact\PhoneApplications.Services.Contact.API\PhoneApplications.Services.Contact.API.csproj", "{994138D9-8C26-456E-8765-3BA9B2CD8E04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneApplications.Services.Contact.Core", "src\Services\Contact\PhoneApplications.Services.Contact.Core\PhoneApplications.Services.Contact.Core.csproj", "{11872E3F-8C04-4B77-9B0C-E0C5D6F527A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneApplications.Services.Contact.Core", "src\Services\Contact\PhoneApplications.Services.Contact.Core\PhoneApplications.Services.Contact.Core.csproj", "{11872E3F-8C04-4B77-9B0C-E0C5D6F527A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneApplications.Services.Contact.Data", "src\Services\Contact\PhoneApplications.Services.Contact.Data\PhoneApplications.Services.Contact.Data.csproj", "{65ADBCC4-E80F-44DF-AE00-1ABCB85A2E0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneApplications.Services.Contact.Data", "src\Services\Contact\PhoneApplications.Services.Contact.Data\PhoneApplications.Services.Contact.Data.csproj", "{65ADBCC4-E80F-44DF-AE00-1ABCB85A2E0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneApplications.Services.Contact.Services", "src\Services\Contact\PhoneApplications.Services.Contact.Services\PhoneApplications.Services.Contact.Services.csproj", "{6C930A06-0EDF-464E-8803-411E138482AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneApplications.Services.Contact.Services", "src\Services\Contact\PhoneApplications.Services.Contact.Services\PhoneApplications.Services.Contact.Services.csproj", "{6C930A06-0EDF-464E-8803-411E138482AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneApplications.Services.Report.Core", "src\Services\Report\PhoneApplications.Services.Report.Core\PhoneApplications.Services.Report.Core.csproj", "{05BB30FC-D5EB-4195-8D35-81B3C005ACB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneApplications.Services.Report.Data", "src\Services\Report\PhoneApplications.Services.Report.Data\PhoneApplications.Services.Report.Data.csproj", "{CB7F442D-749C-4A22-9A87-DD3AFA799F66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneApplications.Services.Report.Services", "src\Services\Report\PhoneApplications.Services.Report.Services\PhoneApplications.Services.Report.Services.csproj", "{7840760A-F8BD-47BA-85DE-035EAB2013A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneApplications.Services.Report.API", "src\Services\Report\PhoneApplications.Services.Report.API\PhoneApplications.Services.Report.API.csproj", "{D42B94F8-4088-4BEA-800B-7CBD95529A8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +49,22 @@ Global
 		{6C930A06-0EDF-464E-8803-411E138482AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C930A06-0EDF-464E-8803-411E138482AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C930A06-0EDF-464E-8803-411E138482AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05BB30FC-D5EB-4195-8D35-81B3C005ACB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05BB30FC-D5EB-4195-8D35-81B3C005ACB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05BB30FC-D5EB-4195-8D35-81B3C005ACB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05BB30FC-D5EB-4195-8D35-81B3C005ACB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB7F442D-749C-4A22-9A87-DD3AFA799F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB7F442D-749C-4A22-9A87-DD3AFA799F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB7F442D-749C-4A22-9A87-DD3AFA799F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB7F442D-749C-4A22-9A87-DD3AFA799F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7840760A-F8BD-47BA-85DE-035EAB2013A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7840760A-F8BD-47BA-85DE-035EAB2013A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7840760A-F8BD-47BA-85DE-035EAB2013A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7840760A-F8BD-47BA-85DE-035EAB2013A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D42B94F8-4088-4BEA-800B-7CBD95529A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D42B94F8-4088-4BEA-800B-7CBD95529A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D42B94F8-4088-4BEA-800B-7CBD95529A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D42B94F8-4088-4BEA-800B-7CBD95529A8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +77,10 @@ Global
 		{11872E3F-8C04-4B77-9B0C-E0C5D6F527A6} = {2886EF92-7BFA-4467-A238-4774F1252FF8}
 		{65ADBCC4-E80F-44DF-AE00-1ABCB85A2E0E} = {2886EF92-7BFA-4467-A238-4774F1252FF8}
 		{6C930A06-0EDF-464E-8803-411E138482AD} = {2886EF92-7BFA-4467-A238-4774F1252FF8}
+		{05BB30FC-D5EB-4195-8D35-81B3C005ACB0} = {CFF79769-0DAF-4C92-95CC-5E5FC4CD6EE6}
+		{CB7F442D-749C-4A22-9A87-DD3AFA799F66} = {CFF79769-0DAF-4C92-95CC-5E5FC4CD6EE6}
+		{7840760A-F8BD-47BA-85DE-035EAB2013A2} = {CFF79769-0DAF-4C92-95CC-5E5FC4CD6EE6}
+		{D42B94F8-4088-4BEA-800B-7CBD95529A8B} = {CFF79769-0DAF-4C92-95CC-5E5FC4CD6EE6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BF7F4398-9D94-4E22-B098-C97EEDFB402D}

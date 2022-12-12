@@ -10,7 +10,6 @@ namespace PhoneApplications.Services.Contact.Core.DTOs
     {        
         public Guid PersonId { get; set; }
         public int ContactTypeId { get; set; }
-        public string ContactName { get; set; }
-        public string Information { get; set; }
+        public string Information { get; set; } = "";
     }
 }
