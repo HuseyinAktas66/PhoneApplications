@@ -25,10 +25,10 @@ builder.Services.AddCap(options =>
         {
             options.ConnectionFactoryOptions = options =>
             {
-                options.HostName = "localhost";
-                options.UserName = "guest";
-                options.Password = "guest";
-                options.Port = 5672;
+                options.HostName = builder.Configuration.GetSection("RabbitMQ:HostName").Get<string>();
+                options.UserName = builder.Configuration.GetSection("RabbitMQ:UserName").Get<string>();
+                options.Password = builder.Configuration.GetSection("RabbitMQ:Password").Get<string>();
+                options.Port =Convert.ToInt32(builder.Configuration.GetSection("RabbitMQ:Port").Get<string>());
                 options.Ssl.Enabled = false;
             };
             
