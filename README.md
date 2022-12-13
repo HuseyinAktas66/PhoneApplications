@@ -1,5 +1,5 @@
 # PhoneApplications
-
+ 
 ## Proje Hakkında
 
 Birbirleri ile haberleşen minimum iki microservice'in olduğu bir yapı tasarlayarak, basit bir telefon rehberi uygulaması oluşturulması sağlanacaktır.
