@@ -23,9 +23,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneApplications.Services.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneApplications.Services.Report.Data", "src\Services\Report\PhoneApplications.Services.Report.Data\PhoneApplications.Services.Report.Data.csproj", "{CB7F442D-749C-4A22-9A87-DD3AFA799F66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneApplications.Services.Report.Services", "src\Services\Report\PhoneApplications.Services.Report.Services\PhoneApplications.Services.Report.Services.csproj", "{7840760A-F8BD-47BA-85DE-035EAB2013A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneApplications.Services.Report.Services", "src\Services\Report\PhoneApplications.Services.Report.Services\PhoneApplications.Services.Report.Services.csproj", "{7840760A-F8BD-47BA-85DE-035EAB2013A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneApplications.Services.Report.API", "src\Services\Report\PhoneApplications.Services.Report.API\PhoneApplications.Services.Report.API.csproj", "{D42B94F8-4088-4BEA-800B-7CBD95529A8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneApplications.Services.Report.API", "src\Services\Report\PhoneApplications.Services.Report.API\PhoneApplications.Services.Report.API.csproj", "{D42B94F8-4088-4BEA-800B-7CBD95529A8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services.Test", "Services.Test", "{FEDD5C5D-5F5E-427E-8D3D-922005ABA958}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contact", "Contact", "{6B975EFD-B21F-4133-AB52-35402B46008D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Report", "Report", "{19E06045-C4FE-4F2C-8B2A-222367C5B761}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneApplications.Services.Contact.API.Test", "src\Services.Test\Contact\PhoneApplications.Services.Contact.API.Test\PhoneApplications.Services.Contact.API.Test.csproj", "{1AB0FE64-293F-4448-99D2-AEF0F10DB850}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +73,10 @@ Global
 		{D42B94F8-4088-4BEA-800B-7CBD95529A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D42B94F8-4088-4BEA-800B-7CBD95529A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D42B94F8-4088-4BEA-800B-7CBD95529A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AB0FE64-293F-4448-99D2-AEF0F10DB850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AB0FE64-293F-4448-99D2-AEF0F10DB850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AB0FE64-293F-4448-99D2-AEF0F10DB850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AB0FE64-293F-4448-99D2-AEF0F10DB850}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +93,10 @@ Global
 		{CB7F442D-749C-4A22-9A87-DD3AFA799F66} = {CFF79769-0DAF-4C92-95CC-5E5FC4CD6EE6}
 		{7840760A-F8BD-47BA-85DE-035EAB2013A2} = {CFF79769-0DAF-4C92-95CC-5E5FC4CD6EE6}
 		{D42B94F8-4088-4BEA-800B-7CBD95529A8B} = {CFF79769-0DAF-4C92-95CC-5E5FC4CD6EE6}
+		{FEDD5C5D-5F5E-427E-8D3D-922005ABA958} = {9B1446D3-15A9-4A5C-A792-6BE2020D7C02}
+		{6B975EFD-B21F-4133-AB52-35402B46008D} = {FEDD5C5D-5F5E-427E-8D3D-922005ABA958}
+		{19E06045-C4FE-4F2C-8B2A-222367C5B761} = {FEDD5C5D-5F5E-427E-8D3D-922005ABA958}
+		{1AB0FE64-293F-4448-99D2-AEF0F10DB850} = {6B975EFD-B21F-4133-AB52-35402B46008D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BF7F4398-9D94-4E22-B098-C97EEDFB402D}
