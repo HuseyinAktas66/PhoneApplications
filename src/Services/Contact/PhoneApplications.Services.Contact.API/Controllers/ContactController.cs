@@ -27,8 +27,9 @@ namespace PhoneApplications.Services.Contact.API.Controllers
         [Produces("application/json", "text/plain")]
         [HttpPost("create")]
         public async Task<IActionResult> Post([FromBody] CreateContactDTO contactDTO)
-        {            
-            return Ok(await _contactService.AddAsync(contactDTO));
+        {
+            var result = await _contactService.AddAsync(contactDTO);
+            return Ok();
         }
         [Produces("application/json", "text/plain")]
         [HttpDelete("delete/{id}")]
